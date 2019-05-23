@@ -12,3 +12,5 @@ import matplotlib.pylab as plt
 u = np.array([12.,45.,6.,78.,34.,22.,-10.,31.,-27.])
 v = np.array([3.,11.,1.3,37.,11.,6.,-23.,7.,7.])
 
+print (np.cov(u,v))
+
