@@ -16,8 +16,19 @@ B=(np.random.random((N,1))*10.0)-3.0
 print (A)
 print (B)
 
-PRUEBA PRUEBAS
+C = B - A
 
+contador = 0
+
+for element in C:
+     if element > 0:
+            contandor = contador + 1
+     else:
+        print ('A NO es menor que B')
+        break
+        
+if contador == 9:
+    print ('A es mayor que B')
 
 
 
